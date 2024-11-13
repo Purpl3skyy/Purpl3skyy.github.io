@@ -1,0 +1,165 @@
+index.html<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purpl3skyy | Lerie Turner</title>
+    <style>
+        /* Color Palette */
+        :root {
+            --primary-purple: #636bd0;
+            --secondary-purple: #6017ea;
+            --aqua-blue: #36c2d4;
+            --light-purple: #a9c2f0;
+            --white: #fefefe;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, var(--primary-purple), var(--light-purple));
+            color: var(--white);
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2 {
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--primary-purple);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: var(--aqua-blue);
+            margin: 0;
+        }
+
+        header p {
+            font-style: italic;
+            font-size: 1.2em;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: var(--aqua-blue);
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        /* About Section */
+        #about {
+            background-color: var(--primary-purple);
+        }
+
+        #about p {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+
+        /* Portfolio Section */
+        #portfolio {
+            background-color: var(--secondary-purple);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .portfolio-item {
+            background-color: var(--light-purple);
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+        }
+
+        .portfolio-item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        /* Contact Section */
+        #contact {
+            background-color: var(--primary-purple);
+        }
+
+        .contact-info {
+            margin: 20px auto;
+            color: var(--white);
+            font-size: 1.1em;
+        }
+
+        a {
+            color: var(--aqua-blue);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: var(--white);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: var(--secondary-purple);
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Purpl3skyy | Lerie Turner</h1>
+        <p>Vibrate High with Purpose and Art</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Einstein said, “Everything is energy and that’s all there is to it.” Here at Purpl3skyy, we are dedicated to producing high-vibrational content through consistently practicing wellness as a team. Content created from high vibrations allows potential clients to feel something great when they “experience” your content and are drawn to your business, product, or services.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-item">
+            <img src="your-artwork1.jpg" alt="Artwork 1">
+            <p>Title: Unlocking The Shift</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="your-artwork2.jpg" alt="Artwork 2">
+            <p>Title: Elemental Essence</p>
+        </div>
+        <!-- Add more portfolio items here -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:contact@purpl3skyy.com">contact@purpl3skyy.com</a></p>
+            <p>Follow on Social Media: <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a> | <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Purpl3skyy | Lerie Turner. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
